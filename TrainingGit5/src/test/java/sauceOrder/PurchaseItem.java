@@ -35,7 +35,7 @@ public class PurchaseItem {
 		String orderid = driver.findElement(By.xpath("(//div[@class='summary_value_label'])[1]")).getText();
 		String[] split = orderid.split("#");
 		System.out.println("Order id: " +split[1]);
-		driver.quit();
+		
 		
 
 	}
