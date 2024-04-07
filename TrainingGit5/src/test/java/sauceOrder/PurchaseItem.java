@@ -36,6 +36,7 @@ public class PurchaseItem {
 		String[] split = orderid.split("#");
 		System.out.println("Order id: " +split[1]);
 		driver.close();
+		System.out.println("sauceTest");
 		
 		
 
